@@ -98,32 +98,32 @@ public class AdjacencyMatrixUndirectedGraph {
 	// 					Methods 
 	// ------------------------------------------------		
 	
-	
+	/**
+     	* @return true if the edge is in the graph.
+     	*/
 	public boolean isEdge(int x, int y) {
 		// A completer
 		return true;		
 	}
 	
 	/**
-     * removes the edge (x,y) if there exists at least one between these nodes in the graph.
-     */
-	
+     	* removes the edge (x,y) if there exists at least one between these nodes in the graph.
+    	 */
 	public void removeEdge(int x, int y) {
 		// A completer
 	}
 
 	/**
-     * adds the edge (x,y), we allow the multi-graph.
-     */
-	
+     	* adds the edge (x,y), we allow the multi-graph.
+     	*/
 	public void addEdge(int x, int y) {
 		// A completer
 	}
 
 	
 	/**
-     * @return the adjacency matrix representation int[][] of the graph
-     */
+    	 * @return the adjacency matrix representation int[][] of the graph
+    	 */
 	public int[][] toAdjacencyMatrix() {
 		return this.matrix;
 	}
