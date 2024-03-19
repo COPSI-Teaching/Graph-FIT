@@ -93,22 +93,22 @@ public class AdjacencyListUndirectedGraph {
     }
     
     /**
-	 * @return the number of edges in the graph
- 	 */ 
+     * @return the number of edges in the graph
+     */ 
     public int getNbEdges() {
         return this.m;
     }
 
     /**
-	 * @return true if there is an edge between x and y
-	 */
+     * @return true if there is an edge between x and y
+     */
     public boolean isEdge(UndirectedNode x, UndirectedNode y) {      	
         // A completer
     	return true;
     }
 
     /**
-	 * Removes edge (x,y) if there exists one
+     * Removes edge (x,y) if there exists one
      */
     public void removeEdge(UndirectedNode x, UndirectedNode y) {
     	if(isEdge(x,y)){
@@ -117,7 +117,8 @@ public class AdjacencyListUndirectedGraph {
     }
 
     /**
-	 * Adds edge (x,y), requires that nodes x and y already exist
+     * Adds edge (x,y), requires that nodes x and y already exist
+     * In non-valued graph, every edge has a cost equal to 0
      */
     public void addEdge(UndirectedNode x, UndirectedNode y) {
     	if(!isEdge(x,y)){
