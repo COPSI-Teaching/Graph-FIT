@@ -174,7 +174,8 @@ public class AdjacencyListUndirectedGraph {
         GraphTools.afficherMatrix(mat);
         AdjacencyListUndirectedGraph al = new AdjacencyListUndirectedGraph(mat);
         System.out.println(al);
-        System.out.println(al.isEdge(new UndirectedNode(2), new UndirectedNode(5)));
+        System.out.println("(2,5) is it in the graph ? " +  al.isEdge(al.getNodes().get(2), al.getNodes().get(5)));
+        
         // A completer
     }
 
