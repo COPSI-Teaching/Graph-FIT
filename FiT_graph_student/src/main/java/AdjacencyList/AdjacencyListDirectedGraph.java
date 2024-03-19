@@ -121,8 +121,9 @@ public class AdjacencyListDirectedGraph {
     }
 
     /**
-	 * Adds the arc (from,to) if it is not already present in the graph, requires the existing of nodes from and to 
- 	 */
+	* Adds the arc (from,to) if it is not already present in the graph, requires the existing of nodes from and to 
+  	* On non-valued graph, every arc has a weight equal to 0.
+ 	*/
     public void addArc(DirectedNode from, DirectedNode to) {
     	// A completer
     }
